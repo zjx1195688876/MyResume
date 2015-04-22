@@ -9,3 +9,7 @@
 >自我评价
 ####网页版本在线：
 [简历在线](http://zhangjinxin.sinaapp.com)
+
+1.1
+2.2
+3.3

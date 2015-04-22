@@ -7,4 +7,4 @@
 ######任职&获奖
 ######自我评价
 ###网页版本在线：
-[######简历在线](http://zhangjinxin.sinaapp.com)
+######[简历在线](http://zhangjinxin.sinaapp.com)

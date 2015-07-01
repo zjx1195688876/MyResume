@@ -317,7 +317,7 @@
 	     	transition:all 1s;
 	     }
 	     .active .p29{
-	     	margin-left: 270px;
+	     	margin-left: 100px;
 	     	opacity: 1;
 	     	transition-delay: 1.5s;
 	     }
@@ -332,7 +332,7 @@
 	     	transition:all 1s;
 	     }
 	     .active .p211{
-	     	margin-left: 150px;
+	     	margin-left: 50px;
 	     	opacity: 1;
 	     	transition-delay: 1.7s;
 	     }
@@ -730,22 +730,30 @@
 	     	z-index: 1;
 	    }
 	    .p71{
-	    	color: #f0c349;
-	    	text-shadow:5px 5px 5px #6b7f68;/*left top 模糊度 shadow颜色*/
-	    	font-size: 22px;
-	    	width: 100%;
+	    	width: 500px;
+	    	color: #fff;
+	    	/*text-shadow:5px 5px 5px #6b7f68;*/
+	    	text-align: center;
+	    	font-size: 16px;
 	    	position: absolute;
 	    	top: 50%;
 	    	left: 50%;
 	    	margin-top: 150px;
-	    	margin-left: -60px;
+	    	margin-left: -230px;
 	    	opacity: 0;
 	    	transition: all 1s;
 	    }
 	    .active .p71{
-	    	margin-top: -150px;
-	    	opacity: 0.5;
+	    	width: 500px;
+	    	padding: 20px;
+	    	text-align: center;
+	    	margin-top: -200px;
+	    	margin-left: -230px;
+	    	opacity: 1;
 	    	transition-delay: 1.3s;
+	    	border-top: 3px solid #fff;
+	    	border-bottom: 3px solid #fff;
+	    	z-index: 2;
 	    }
 	    .p71 p{
 	    	line-height: 30px;
@@ -769,8 +777,10 @@
 			'navigation': true,
 			'navigationColor':"#999",
 			'continuousVertical':true,
-			'anchors':['page1','page2','page3','page4','page5','page6','page7'],
-			'navigationTooltips':['自我介绍','掌握技术','网站案例','项目案例','任职实践及奖惩','自我评价','联系方式'],
+			// 'anchors':['page1','page2','page3','page4','page5','page6','page7'],
+			'anchors':['page1','page2','page3','page4','page5','page6'],
+			// 'navigationTooltips':['自我介绍','掌握技术','网站案例','项目案例','任职实践及奖惩','自我评价','联系方式'],
+			'navigationTooltips':['自我介绍','掌握技术','网站案例','项目案例','任职实践及奖惩','联系方式'],
 			'scrollingSpeed':1200,
 		});
 	})
@@ -800,15 +810,15 @@
 			<section class="section section2">
 				<strong style="color:#fff;margin-left:-40px;">[ 技能 / SKILL ]</strong>
 				<p class="p21">求职意向：前端开发工程师（实习）</p>
-				<p class="p22">熟悉的技术：<p>
-				<p class="p23">HTML / HTML5</p>
-				<P class="p24">CSS / CSS3</p>
-				<p class="p25">JavaScript</p>
-				<p class="p26">Jquery</p>
-				<p class="p27">BootStrap前端框架</p>
-				<p class="p28">：略懂的技术</p>
-				<p class="p29">JSP / JAVA EE</p>
-				<p class="p211">MYSQL / SQL SERVER</p>
+				<p class="p22">熟悉：<p>
+				<p class="p23">页面架构</p>
+				<P class="p24">HTML5</p>
+				<p class="p25">CSS3</p>
+				<p class="p26">JavaScript</p>
+				<!-- <p class="p27">BootStrap前端框架</p> -->
+				<p class="p28">：了解</p>
+				<p class="p29">数据库(MySQL 、 SQL Server)</p>
+				<p class="p211">JAVA Web</p>
 			</section>
 
 			<section class="section section3">
@@ -870,7 +880,7 @@
 				</div>
 			</section>
 
-			<section class="section section6">
+			<!-- <section class="section section6">
 				<div class="bg61"></div>
 				<strong style="color:#fff;margin-left:-100px;">[ 评价 / EVALUATION ]</strong>
 				<div class="p61">
@@ -894,16 +904,19 @@
 					<p style="text-indent:2em;">}</p>
 					<p>&lt;/script&gt;</p>
 			</div>
-			</section>
+			</section> -->
 
 			<section class="section section7">
 				<div class="bg71"></div>
 				<div class="bg72"></div>
 				<strong style="color:#fff;margin-left:-60px;">[  联系 / CONTACT ]</strong>
 				<div class="p71">
-					<p>手机：15757116071</p>
-					<p>邮箱：15757116071@163.com</p>
-					<p>QQ：1195688876</p>
+					<p>手机  :  15757116071</p>
+					<p>邮箱  :  15757116071@163.com</p>
+					<p>QQ  :  1195688876</p>
+					<p>Github :  https://github.com/zjx1195688876 </p>
+					<p>Codepen :  http://codepen.io/zjx1195688876  </p>
+					<p>技术博客：  http://zhangjinxin.com  </p>
 			    </div>
 			</section>
 
